@@ -23,7 +23,7 @@ int main() {
 		{
 			for (int j = 0; j < 10; j++)
 			{
-				if(lenght(fileManager[i][j])<1)
+				//if(lenght(fileManager[i][j])<1)
 				cout << fileManager[i][j];
 			}
 			cout << endl;
