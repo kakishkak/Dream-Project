@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-	cout << "Dsefse";
+	cout << "sss";
 	string** fileManager = new string * [10];
 	for (int i = 0; i < 10; i++)
 	{
@@ -12,9 +12,9 @@ int main() {
 	}
 	fileManager[0][0] = "Disk:C";
 	fileManager[1][0] = "Disk:D";
-	fileManager[0][2] = "Shit from diskC";
 	fileManager[0][3] = "Shit from diskC";
-	fileManager[0][4] = "Shit from diskC";
+	fileManager[1][3] = "Shit from diskC";
+	fileManager[2][3] = "Shit from diskC";
 	int posArrX = 1;
 	int posArrY = 0;
 	while (true) {
